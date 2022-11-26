@@ -1,0 +1,19 @@
+== Test tree command with public testcase 0 (5%) ==
+tree command with public testcase 0: FAIL (10.6s)
+    [Error] Output on line 0: 'exec tree failed', should be 'os2202 [error opening dir]'
+== Test tree command with public testcase 1 (5%) ==
+tree command with public testcase 1: FAIL (0.7s)
+    [Error] Output on line 0: 'exec tree failed', should be 'os2202/ [error opening dir]'
+== Test tree command with public testcase 2 (5%) ==
+tree command with public testcase 2: FAIL (0.6s)
+    [Error] Output on line 0: 'exec tree failed', should be 'os2022'
+== Test tree command with public testcase 3 (5%) ==
+tree command with public testcase 3: FAIL (0.6s)
+    [Error] Output on line 0: 'exec tree failed', should be 'os2022/'
+== Test tree command with public testcase 4 (10%) ==
+tree command with public testcase 4: FAIL (1.0s)
+    [Error] Output on line 0: 'exec tree failed', should be 'a'
+== Test tree command with public testcase 5 (10%) ==
+tree command with public testcase 5: FAIL (1.0s)
+    [Error] Output on line 0: 'exec tree failed', should be 'a/'
+Score: 0/40
