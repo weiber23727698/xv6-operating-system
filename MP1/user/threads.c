@@ -8,8 +8,6 @@ static struct thread* current_thread = NULL;
 static struct thread* root_thread = NULL;
 static int id = 1;
 static jmp_buf env_st;
-//static jmp_buf env_tmp; // dispatch
-// TODO: necessary declares, if any
 
 struct thread* find_last(struct thread* t){
     struct thread* now = t;
